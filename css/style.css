@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: red;
+    flex-direction: row;
+}
+
+.input{
+    width: 20vw;
+    height: 100vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display{
+    width: 80vw;
+    height: 100vh;
+    background-color: brown;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.grid-items{
+    background-color: green;
+    border-style: solid;
+    margin: 0px;
+    border-width: 1px;
+    border-color: black;
+}
